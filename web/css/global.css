@@ -1,3 +1,11 @@
+* {
+    font-family: lato;
+}
+
+body {
+    font-size: 12px;
+}
+
 /**********************
     -- HEADER --
 **********************/
@@ -5,6 +13,7 @@
 header {
     background-color: #182115;
     color: #FFFFFF;
+    margin-bottom: 20px;
 }
 
 header .app-logo {
@@ -12,6 +21,15 @@ header .app-logo {
     width: 92px;
 }
 
+header .header-separator {
+    height: 80px;
+    margin-top: 10px;
+    padding-left: 30px;
+    border-left: 3px solid #FFFFFF;
+    width: 3px;
+    float: left;
+}
+ 
 header .icon {
     font-size: 40px;
     padding-top: 30px;
@@ -72,4 +90,30 @@ header .icon {
 .dropdown .dropdown-menu li a {
     color: #FFFFFF;
     font-size: 18px;
+}
+
+/**********************
+    -- TIMELINE --
+*********************/
+
+article.event {
+    border: 1px solid #BFBFBF;
+    box-shadow: 2px 2px 2px #BFBFBF;
+}
+
+article.event .row {
+    padding: 15px;
+}
+
+article.event .user-picture {
+    width: 100%;
+}
+
+article.event .title-box {
+    font-size: 3em;
+    margin-top: 0px;
+}
+
+article.event .title-box .location {
+    display: block;
 }
