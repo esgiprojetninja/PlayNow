@@ -6,6 +6,74 @@ body {
     font-size: 12px;
 }
 
+/********************
+    -- POPOVERS --
+********************/
+
+.popover-top {
+    position: absolute;
+    background-color: #000000;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 5px;
+    border-radius: 4px;
+    bottom: 44px;
+    left: -40px;
+    width: 100px;
+    display: none;
+}
+
+.popover-top:before {
+    border-top: 7px solid rgba(0,0,0,0.85);
+    border-right: 7px solid transparent;
+    border-left: 7px solid transparent;
+    content: "";
+    display: block;
+    position: absolute;
+    left: 50%;
+    bottom: -6px;
+}
+
+.popover-top.active {
+    display: block;
+}
+
+.popover-trigger {
+    position: relative;
+}
+
+.popover-trigger:focus .popover-top {
+    display: block;
+}
+
+/*********************
+    -- BUTTONS --
+*********************/
+
+.btn {
+    border: none;
+    font-size: 1.5em;
+    padding: 10px;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.btn:focus {
+    outline: none;
+}
+
+.btn-darkgreen {
+    border-bottom: 3px solid #182115;
+    background-color: #093500;
+    color: #FFFFFF;
+}
+
+.btn-darkgreen:focus {
+    background-color: #3AFA06;
+}
+
 /**********************
     -- HEADER --
 **********************/
@@ -99,10 +167,10 @@ header .icon {
 article.event {
     border: 1px solid #BFBFBF;
     box-shadow: 2px 2px 2px #BFBFBF;
-}
-
-article.event .row {
+    color: #182115;
     padding: 15px;
+    margin-left: 15px;
+    margin-bottom: 20px;
 }
 
 article.event .user-picture {
@@ -112,8 +180,42 @@ article.event .user-picture {
 article.event .title-box {
     font-size: 3em;
     margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 article.event .title-box .location {
     display: block;
+    color: #BFBFBF;
+    font-size: 0.6em;
+}
+
+article.event .title-box .location .icon-location {
+    color: #182115;
+}
+
+article.event .nb-users img {
+    width: 100%;
+}
+
+article.event .event-description {
+    padding-left: 10px;
+}
+
+article.event .btn-box .btn {
+    float: right;
+}
+
+article.event .icons-and-tags .icon-box {
+    padding-left: 0;
+}
+
+article.event .icons-and-tags .tag-box {
+    background-color: #BFBFBF;
+    min-height: 40px;
+    text-align: center;
+}
+
+article.event .icons-and-tags .tag-box a {
+    line-height: 40px;
+    padding: 0 5px;
 }

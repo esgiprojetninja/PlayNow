@@ -53,28 +53,120 @@
                             </span>
                         </h2>
                     </div>
-                    <div class="col-xs-4">
-                        <h4>Nb Users</h4>
+                    <div class="col-xs-4 nb-users">
+                        <div class="col-xs-3">
+                            <img src="./img/user-icon-no-circle.png" alt="User #">
+                        </div>
+                        <div class="col-xs-3">
+                            <img src="./img/user-icon-no-circle.png" alt="User #">
+                        </div>
+                        <div class="col-xs-3">
+                            <img src="./img/user-icon-no-circle.png" alt="User #">
+                        </div>
+                        <div class="col-xs-3">
+                            <img src="./img/user-icon-no-circle.png" alt="User #">
+                        </div>
                     </div>
                 </div>
                 <div class="event-description">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut dictum sodales ante at sagittis. Morbi vitae nisi quis lorem fringilla hendrerit id vel ante. Ut justo tortor, sodales nec tempus vel, viverra sodales sapien. Integer bibendum lacus sed dignissim porttitor. Nulla a molestie lorem. Nulla quis condimentum augue. Sed tincidunt tristique lectus sit amet convallis.</p>
                 </div>
                 <div class="row">
-                    <div class="col-xs-8">
-                        <p>Event icons and tags</p>
+                    <div class="col-xs-8 icons-and-tags">
+                        <div class="row">
+                            <div class="col-xs-4 icon-box">
+                                <button class="btn btn-darkgreen popover-trigger" type="button">
+                                    <span class="popover-top">Today - 6pm</span>
+                                    <span class="icon-calendar">
+                                    </span>
+                                </button>
+                                <button class="btn btn-darkgreen popover-trigger" type="button">
+                                    <span class="popover-top">5 km from you</span>
+                                    <span class="icon icon-map2"></span>
+                                </button>
+                            </div>
+                            <div class="col-xs-8 tag-box">
+                                <a href="#">#sport</a>
+                                <a href="#">#sport</a>
+                                <a href="#">#sport</a>
+                                <a href="#">#sport</a>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-xs-4">
-                        <p>Event Actions</p>
+                    <div class="col-xs-4 btn-box">
+                        <button type="button" class="btn btn-darkgreen">
+                            Meet Them !
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article>
+    <article class="grid-container event">
+        <div class="row">
+            <div class="col-xs-2">
+                <img src="./img/user-icon.png" alt="User Picture" class="user-picture">
+            </div>
+            <div class="col-xs-10">
+                <div class="row">
+                    <div class="col-xs-8">
+                        <h2 class="title-box">
+                            Event title
+                            <span class="location">
+                                <span class="icon-location"></span> Toulouse
+                            </span>
+                        </h2>
+                    </div>
+                    <div class="col-xs-4 nb-users">
+                        <div class="col-xs-3">
+                            <img src="./img/user-icon-no-circle.png" alt="User #">
+                        </div>
+                        <div class="col-xs-3">
+                            <img src="./img/user-icon-no-circle.png" alt="User #">
+                        </div>
+                        <div class="col-xs-3">
+                            <img src="./img/user-icon-no-circle.png" alt="User #">
+                        </div>
+                        <div class="col-xs-3">
+                            <img src="./img/user-icon-no-circle.png" alt="User #">
+                        </div>
+                    </div>
+                </div>
+                <div class="event-description">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut dictum sodales ante at sagittis. Morbi vitae nisi quis lorem fringilla hendrerit id vel ante. Ut justo tortor, sodales nec tempus vel, viverra sodales sapien. Integer bibendum lacus sed dignissim porttitor. Nulla a molestie lorem. Nulla quis condimentum augue. Sed tincidunt tristique lectus sit amet convallis.</p>
+                </div>
+                <div class="row">
+                    <div class="col-xs-8 icons-and-tags">
+                        <div class="row">
+                            <div class="col-xs-4 icon-box">
+                                <button class="btn btn-darkgreen popover-trigger" type="button">
+                                    <span class="popover-top">Today - 6pm</span>
+                                    <span class="icon-calendar">
+                                    </span>
+                                </button>
+                                <button class="btn btn-darkgreen popover-trigger" type="button">
+                                    <span class="popover-top">5 km from you</span>
+                                    <span class="icon icon-map2"></span>
+                                </button>
+                            </div>
+                            <div class="col-xs-8 tag-box">
+                                <a href="#">#sport</a>
+                                <a href="#">#sport</a>
+                                <a href="#">#sport</a>
+                                <a href="#">#sport</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-4 btn-box">
+                        <button type="button" class="btn btn-darkgreen">
+                            Meet Them !
+                        </button>
                     </div>
                 </div>
             </div>
         </div>
     </article>
 </section>
-<div class="grid-container">
-    
-</div>
 </body>
 
 <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
