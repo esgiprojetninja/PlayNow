@@ -1,9 +1,12 @@
 * {
-    font-family: lato;
+    font-family: Lato;
+    font-weight: 400;
 }
 
 body {
     font-size: 12px;
+    color: #1A1C40;
+    background-color: #f5f8fa;
 }
 
 /********************
@@ -46,88 +49,87 @@ body {
     display: block;
 }
 
-/*********************
-    -- BUTTONS --
-*********************/
-
-.btn {
-    border: none;
-    font-size: 1.5em;
-    padding: 10px;
-}
-
-.btn:hover {
-    cursor: pointer;
-}
-
-.btn:focus {
-    outline: none;
-}
-
-.btn-darkgreen {
-    border-bottom: 3px solid #182115;
-    background-color: #093500;
-    color: #FFFFFF;
-}
-
-.btn-darkgreen:focus {
-    background-color: #3AFA06;
-}
-
 /**********************
     -- HEADER --
 **********************/
 
 header {
-    background-color: #182115;
-    color: #FFFFFF;
+    background-color: #FFFFFF;
+    color: #2A2A2A;
     margin-bottom: 20px;
+    height: 50px;
+    box-shadow: 2px 2px 2px #8E8D8F;
 }
 
 header .app-logo {
-    height: 100px;
-    width: 92px;
 }
 
 header .header-separator {
-    height: 80px;
+    height: 30px;
     margin-top: 10px;
     padding-left: 30px;
-    border-left: 3px solid #FFFFFF;
+    border-left: 3px solid #13191C;
     width: 3px;
     float: left;
 }
  
 header .icon {
-    font-size: 40px;
-    padding-top: 30px;
     display: block;
-    height: 100px;
-    width: 60px;
+    margin-right: 15px;
     float: left;
-    color: white;
     text-decoration: none;
+    line-height: 1;
+    height: 50px;
+    vertical-align: middle;
+    color: #8E8D8F;
+    transition: all .15s ease-in-out;
+}
+
+header .icon:hover {
+    color: #13191C;
+    border-bottom: 4px solid #13191C;
+}
+
+header .icon span {
+    display: block;
+    float: left;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-left: 5px;
+}
+
+
+header .icon .text {
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 19px;
 }
 
 /* DROPDOWNS */
 
 .dropdown {
     position: relative;
-    height: 100px;
+    height: 50px;
+}
+
+.dropdown .dropdown-icon {
+    margin-left: 0;
 }
 
 .dropdown .dropdown-menu {
     display: none;
     position: absolute;
-    top: 100px;
+    top: 50px;
     left: 0px;
     right: auto;
-    background-color: #182115;
+    background-color: #FFFFFF;
     list-style: none;
     margin: 0;
     padding: 0;
     text-align: center;
     min-width: 200px;
+    box-shadow: 2px 2px 2px #2A2A2A;
+    border: 1px solid #2A2A2A;
 
 }
 
@@ -152,11 +154,13 @@ header .icon {
 }
 
 .dropdown .dropdown-menu li:hover {
-    background-color: #3AFA06;
+    background-color: #2A2A2A;
+    color: #FFFFFF;
 }
 
 .dropdown .dropdown-menu li a {
-    color: #FFFFFF;
+    color: #13191C;
+    text-decoration: none;
     font-size: 18px;
 }
 
@@ -167,7 +171,8 @@ header .icon {
 article.event {
     border: 1px solid #BFBFBF;
     box-shadow: 2px 2px 2px #BFBFBF;
-    color: #182115;
+    background-color: #FFFFFF;
+    color: #13191C;
     padding: 15px;
     margin-left: 15px;
     margin-bottom: 20px;
@@ -190,7 +195,7 @@ article.event .title-box .location {
 }
 
 article.event .title-box .location .icon-location {
-    color: #182115;
+    color: #1A1C40;
 }
 
 article.event .nb-users img {
@@ -218,4 +223,46 @@ article.event .icons-and-tags .tag-box {
 article.event .icons-and-tags .tag-box a {
     line-height: 40px;
     padding: 0 5px;
+}
+
+/*************************
+    -- INDEX NEWS --
+*************************/
+
+.news-box {
+    margin-top: 10px;
+    cursor: pointer;
+    transition: all .15s ease-in-out;
+}
+.news-box:hover {
+    color: #2A2A2A;
+}
+.news-box .box-title {
+    margin: 0 0 5px 0;
+    color: #BFBFBF;
+    font-size: 120%;
+}
+.news-box .box-title .title {
+    color: #8E8D8F;
+    border-left: 1px solid #8E8D8F;
+    padding-left: 5px;
+    transition: all .15s ease-in-out;
+}
+.news-box:hover .box-title .title {
+    color: #2A2A2A;
+}
+.news-box .box-divider {
+    height: 2px;
+    width: 100%;
+    background-color: #2A2A2A;
+    margin-top: 5px;
+}
+
+/************************
+    -- INDEX-MENU --
+************************/
+
+.index-map {
+    width: 100%;
+    height: 200px;
 }
