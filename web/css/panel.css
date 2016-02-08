@@ -1,3 +1,15 @@
+/********* !!!!!!! IMPORTANT !!!!!!!! **************
+
+Panel' structure goes like that:;
+
+div.panel panel-primary/success/warning...(optional)
+    div.panel-heading
+        h3.panel-title
+    div.panel-body
+    div.panel-footer(optional)
+
+*/
+
 .panel {
     width: 100%;
     background-color: #FFFFFF;
