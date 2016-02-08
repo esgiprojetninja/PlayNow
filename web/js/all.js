@@ -11,3 +11,11 @@ $(document).on("click", function (e) {
 // $(".popover-trigger").on("click", function (e) {
 //     $(this).children(".popover-top").toggleClass("active");
 // });
+
+$(function ($) {
+    $(".news-box .content").each(function() {
+        var text = $(this).text().substring(0, 100);
+        text += " ...";
+        $(this).text(text);
+    });
+}, jQuery);

@@ -1,5 +1,6 @@
 * {
-    font-family: lato;
+    font-family: Lato;
+    font-weight: 400;
 }
 
 body {
@@ -218,4 +219,53 @@ article.event .icons-and-tags .tag-box {
 article.event .icons-and-tags .tag-box a {
     line-height: 40px;
     padding: 0 5px;
+}
+
+/*************************
+    -- INDEX NEWS --
+*************************/
+
+.index-news {
+    background-color: #182115;
+    color: #FFFFFF;
+    width: 100%;
+    padding: 10px;
+}
+.index-news .news-heading {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+.index-news .heading-divider {
+    height: 2px;
+    background-color: #FFFFFF;
+    display: flex;
+}
+.index-news .heading-divider .light {
+    width: 30%;
+}
+.index-news .heading-divider .dark {
+    width: 70%;
+    background-color: #2A2A2A;
+}
+.index-news .news-box {
+    max-height: 100px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-top: 10px;
+}
+.index-news .news-box .box-title {
+    margin: 0 0 5px 0;
+    color: #BFBFBF;
+    font-size: 120%;
+}
+.index-news .news-box .box-title .title {
+    color: #FFFFFF;
+    border-left: 1px solid #FFFFFF;
+    padding-left: 5px;
+}
+.index-news .news-box .box-divider {
+    height: 2px;
+    width: 100%;
+    background-color: #2A2A2A;
+    margin-top: 5px;
 }

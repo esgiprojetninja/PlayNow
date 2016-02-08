@@ -9,7 +9,7 @@ body{
 }
 
 .grid-container{
-    width:92%;
+    width:100%;
     margin:0 4%;
 }
 
@@ -243,7 +243,7 @@ body{
 
 @media (min-width: 992px){
     .grid-container{
-        width:980px;
+        width:100%;
         margin:0 auto;
     }
 
