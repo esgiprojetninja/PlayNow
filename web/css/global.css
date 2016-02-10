@@ -1,9 +1,19 @@
 * {
+<<<<<<< HEAD
     font-family: lato;
+=======
+    font-family: Lato;
+    font-weight: 400;
+>>>>>>> aacc8f52c84497b50e329842ac2bb2910187cf06
 }
 
 body {
     font-size: 12px;
+<<<<<<< HEAD
+=======
+    color: #1A1C40;
+    background-color: #f5f8fa;
+>>>>>>> aacc8f52c84497b50e329842ac2bb2910187cf06
 }
 
 /********************
@@ -46,6 +56,7 @@ body {
     display: block;
 }
 
+<<<<<<< HEAD
 /*********************
     -- BUTTONS --
 *********************/
@@ -74,11 +85,14 @@ body {
     background-color: #3AFA06;
 }
 
+=======
+>>>>>>> aacc8f52c84497b50e329842ac2bb2910187cf06
 /**********************
     -- HEADER --
 **********************/
 
 header {
+<<<<<<< HEAD
     background-color: #182115;
     color: #FFFFFF;
     margin-bottom: 20px;
@@ -94,11 +108,29 @@ header .header-separator {
     margin-top: 10px;
     padding-left: 30px;
     border-left: 3px solid #FFFFFF;
+=======
+    background-color: #FFFFFF;
+    color: #2A2A2A;
+    margin-bottom: 20px;
+    height: 50px;
+    box-shadow: 2px 2px 2px #8E8D8F;
+}
+
+header .app-logo {
+}
+
+header .header-separator {
+    height: 30px;
+    margin-top: 10px;
+    padding-left: 30px;
+    border-left: 3px solid #13191C;
+>>>>>>> aacc8f52c84497b50e329842ac2bb2910187cf06
     width: 3px;
     float: left;
 }
  
 header .icon {
+<<<<<<< HEAD
     font-size: 40px;
     padding-top: 30px;
     display: block;
@@ -107,27 +139,78 @@ header .icon {
     float: left;
     color: white;
     text-decoration: none;
+=======
+    display: block;
+    margin-right: 15px;
+    float: left;
+    text-decoration: none;
+    line-height: 1;
+    height: 50px;
+    vertical-align: middle;
+    color: #8E8D8F;
+    transition: all .15s ease-in-out;
+}
+
+header .icon:hover {
+    color: #13191C;
+    border-bottom: 4px solid #13191C;
+}
+
+header .icon span {
+    display: block;
+    float: left;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-left: 5px;
+}
+
+
+header .icon .text {
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 19px;
+>>>>>>> aacc8f52c84497b50e329842ac2bb2910187cf06
 }
 
 /* DROPDOWNS */
 
 .dropdown {
     position: relative;
+<<<<<<< HEAD
     height: 100px;
+=======
+    height: 50px;
+}
+
+.dropdown .dropdown-icon {
+    margin-left: 0;
+>>>>>>> aacc8f52c84497b50e329842ac2bb2910187cf06
 }
 
 .dropdown .dropdown-menu {
     display: none;
     position: absolute;
+<<<<<<< HEAD
     top: 100px;
     left: 0px;
     right: auto;
     background-color: #182115;
+=======
+    top: 50px;
+    left: 0px;
+    right: auto;
+    background-color: #FFFFFF;
+>>>>>>> aacc8f52c84497b50e329842ac2bb2910187cf06
     list-style: none;
     margin: 0;
     padding: 0;
     text-align: center;
     min-width: 200px;
+<<<<<<< HEAD
+=======
+    box-shadow: 2px 2px 2px #2A2A2A;
+    border: 1px solid #2A2A2A;
+>>>>>>> aacc8f52c84497b50e329842ac2bb2910187cf06
 
 }
 
@@ -152,11 +235,21 @@ header .icon {
 }
 
 .dropdown .dropdown-menu li:hover {
+<<<<<<< HEAD
     background-color: #3AFA06;
 }
 
 .dropdown .dropdown-menu li a {
     color: #FFFFFF;
+=======
+    background-color: #2A2A2A;
+    color: #FFFFFF;
+}
+
+.dropdown .dropdown-menu li a {
+    color: #13191C;
+    text-decoration: none;
+>>>>>>> aacc8f52c84497b50e329842ac2bb2910187cf06
     font-size: 18px;
 }
 
@@ -167,7 +260,12 @@ header .icon {
 article.event {
     border: 1px solid #BFBFBF;
     box-shadow: 2px 2px 2px #BFBFBF;
+<<<<<<< HEAD
     color: #182115;
+=======
+    background-color: #FFFFFF;
+    color: #13191C;
+>>>>>>> aacc8f52c84497b50e329842ac2bb2910187cf06
     padding: 15px;
     margin-left: 15px;
     margin-bottom: 20px;
@@ -190,7 +288,11 @@ article.event .title-box .location {
 }
 
 article.event .title-box .location .icon-location {
+<<<<<<< HEAD
     color: #182115;
+=======
+    color: #1A1C40;
+>>>>>>> aacc8f52c84497b50e329842ac2bb2910187cf06
 }
 
 article.event .nb-users img {
@@ -219,3 +321,48 @@ article.event .icons-and-tags .tag-box a {
     line-height: 40px;
     padding: 0 5px;
 }
+<<<<<<< HEAD
+=======
+
+/*************************
+    -- INDEX NEWS --
+*************************/
+
+.news-box {
+    margin-top: 10px;
+    cursor: pointer;
+    transition: all .15s ease-in-out;
+}
+.news-box:hover {
+    color: #2A2A2A;
+}
+.news-box .box-title {
+    margin: 0 0 5px 0;
+    color: #BFBFBF;
+    font-size: 120%;
+}
+.news-box .box-title .title {
+    color: #8E8D8F;
+    border-left: 1px solid #8E8D8F;
+    padding-left: 5px;
+    transition: all .15s ease-in-out;
+}
+.news-box:hover .box-title .title {
+    color: #2A2A2A;
+}
+.news-box .box-divider {
+    height: 2px;
+    width: 100%;
+    background-color: #2A2A2A;
+    margin-top: 5px;
+}
+
+/************************
+    -- INDEX-MENU --
+************************/
+
+.index-map {
+    width: 100%;
+    height: 200px;
+}
+>>>>>>> aacc8f52c84497b50e329842ac2bb2910187cf06
