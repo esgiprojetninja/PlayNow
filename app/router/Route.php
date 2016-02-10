@@ -22,5 +22,35 @@ namespace Playnow\app\router;
 
 class Route implements RouteInterface
 {
+    protected $route;
 
+    public function setRoute(Route $route)
+    {
+        $this->route = $route;
+    }
+
+    public function get($uri)
+    {
+        return new Route("GET", $uri);
+    }
+
+    public function post($uri)
+    {
+        return new Route("POST", $uri);
+    }
+
+    public function put($uri)
+    {
+        return new Route("PUT", $uri);
+    }
+
+    public function patch($uri)
+    {
+        return new Route("PATCH", $uri);
+    }
+
+    public function delete($uri)
+    {
+        return new Route("DELETE", $uri);
+    }
 }
