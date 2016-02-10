@@ -12,6 +12,14 @@
     <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 </head>
 <body>
+    <div id="fixed-container">
+        <div id="tab" class="device-container">
+            <img src="./img/ipad_mockup.png">
+        </div>
+        <div id="phone" class="device-container">
+            <img src="./img/iphone_mockup.png">
+        </div>
+    </div>
     <div id="slide1" class="landing-slide">
         <div class="inside">
             <h1>TOTO</h1>
