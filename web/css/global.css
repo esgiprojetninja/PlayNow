@@ -1,19 +1,12 @@
 * {
-<<<<<<< HEAD
-    font-family: lato;
-=======
     font-family: Lato;
     font-weight: 400;
->>>>>>> aacc8f52c84497b50e329842ac2bb2910187cf06
 }
 
 body {
     font-size: 12px;
-<<<<<<< HEAD
-=======
     color: #1A1C40;
     background-color: #f5f8fa;
->>>>>>> aacc8f52c84497b50e329842ac2bb2910187cf06
 }
 
 /********************
@@ -56,59 +49,11 @@ body {
     display: block;
 }
 
-<<<<<<< HEAD
-/*********************
-    -- BUTTONS --
-*********************/
-
-.btn {
-    border: none;
-    font-size: 1.5em;
-    padding: 10px;
-}
-
-.btn:hover {
-    cursor: pointer;
-}
-
-.btn:focus {
-    outline: none;
-}
-
-.btn-darkgreen {
-    border-bottom: 3px solid #182115;
-    background-color: #093500;
-    color: #FFFFFF;
-}
-
-.btn-darkgreen:focus {
-    background-color: #3AFA06;
-}
-
-=======
->>>>>>> aacc8f52c84497b50e329842ac2bb2910187cf06
 /**********************
     -- HEADER --
 **********************/
 
 header {
-<<<<<<< HEAD
-    background-color: #182115;
-    color: #FFFFFF;
-    margin-bottom: 20px;
-}
-
-header .app-logo {
-    height: 100px;
-    width: 92px;
-}
-
-header .header-separator {
-    height: 80px;
-    margin-top: 10px;
-    padding-left: 30px;
-    border-left: 3px solid #FFFFFF;
-=======
     background-color: #FFFFFF;
     color: #2A2A2A;
     margin-bottom: 20px;
@@ -124,22 +69,11 @@ header .header-separator {
     margin-top: 10px;
     padding-left: 30px;
     border-left: 3px solid #13191C;
->>>>>>> aacc8f52c84497b50e329842ac2bb2910187cf06
     width: 3px;
     float: left;
 }
  
 header .icon {
-<<<<<<< HEAD
-    font-size: 40px;
-    padding-top: 30px;
-    display: block;
-    height: 100px;
-    width: 60px;
-    float: left;
-    color: white;
-    text-decoration: none;
-=======
     display: block;
     margin-right: 15px;
     float: left;
@@ -169,48 +103,33 @@ header .icon .text {
     font-size: 14px;
     font-weight: 600;
     margin-top: 19px;
->>>>>>> aacc8f52c84497b50e329842ac2bb2910187cf06
 }
 
 /* DROPDOWNS */
 
 .dropdown {
     position: relative;
-<<<<<<< HEAD
-    height: 100px;
-=======
     height: 50px;
 }
 
 .dropdown .dropdown-icon {
     margin-left: 0;
->>>>>>> aacc8f52c84497b50e329842ac2bb2910187cf06
 }
 
 .dropdown .dropdown-menu {
     display: none;
     position: absolute;
-<<<<<<< HEAD
-    top: 100px;
-    left: 0px;
-    right: auto;
-    background-color: #182115;
-=======
     top: 50px;
     left: 0px;
     right: auto;
     background-color: #FFFFFF;
->>>>>>> aacc8f52c84497b50e329842ac2bb2910187cf06
     list-style: none;
     margin: 0;
     padding: 0;
     text-align: center;
     min-width: 200px;
-<<<<<<< HEAD
-=======
     box-shadow: 2px 2px 2px #2A2A2A;
     border: 1px solid #2A2A2A;
->>>>>>> aacc8f52c84497b50e329842ac2bb2910187cf06
 
 }
 
@@ -235,13 +154,6 @@ header .icon .text {
 }
 
 .dropdown .dropdown-menu li:hover {
-<<<<<<< HEAD
-    background-color: #3AFA06;
-}
-
-.dropdown .dropdown-menu li a {
-    color: #FFFFFF;
-=======
     background-color: #2A2A2A;
     color: #FFFFFF;
 }
@@ -249,7 +161,6 @@ header .icon .text {
 .dropdown .dropdown-menu li a {
     color: #13191C;
     text-decoration: none;
->>>>>>> aacc8f52c84497b50e329842ac2bb2910187cf06
     font-size: 18px;
 }
 
@@ -260,12 +171,8 @@ header .icon .text {
 article.event {
     border: 1px solid #BFBFBF;
     box-shadow: 2px 2px 2px #BFBFBF;
-<<<<<<< HEAD
-    color: #182115;
-=======
     background-color: #FFFFFF;
     color: #13191C;
->>>>>>> aacc8f52c84497b50e329842ac2bb2910187cf06
     padding: 15px;
     margin-left: 15px;
     margin-bottom: 20px;
@@ -288,11 +195,7 @@ article.event .title-box .location {
 }
 
 article.event .title-box .location .icon-location {
-<<<<<<< HEAD
-    color: #182115;
-=======
     color: #1A1C40;
->>>>>>> aacc8f52c84497b50e329842ac2bb2910187cf06
 }
 
 article.event .nb-users img {
@@ -321,8 +224,6 @@ article.event .icons-and-tags .tag-box a {
     line-height: 40px;
     padding: 0 5px;
 }
-<<<<<<< HEAD
-=======
 
 /*************************
     -- INDEX NEWS --
@@ -365,4 +266,3 @@ article.event .icons-and-tags .tag-box a {
     width: 100%;
     height: 200px;
 }
->>>>>>> aacc8f52c84497b50e329842ac2bb2910187cf06
