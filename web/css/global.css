@@ -178,7 +178,7 @@ article.event {
     margin-bottom: 20px;
 }
 
-article.event .user-picture {
+article.event .user-picture, .sport-picture {
     width: 100%;
 }
 
@@ -188,10 +188,14 @@ article.event .title-box {
     margin-bottom: 0px;
 }
 
-article.event .title-box .location {
+article.event .title-box .location, .author{
     display: block;
     color: #BFBFBF;
     font-size: 0.6em;
+}
+
+article.event .title-box  .author{
+    padding-bottom:5px;
 }
 
 article.event .title-box .location .icon-location {
@@ -223,6 +227,53 @@ article.event .icons-and-tags .tag-box {
 article.event .icons-and-tags .tag-box a {
     line-height: 40px;
     padding: 0 5px;
+}
+
+article.event span.icon-mt-circle {
+    padding:7px;
+    border: 0px;
+}
+article.event span.icon-mt-circle {
+    display: inline-block;
+    font-size: 1.4em;
+    border-radius: 50%;
+    margin-right: 2px;
+    color:white;
+}
+
+article.event .icon-mt-google:hover {
+    background-color: rgb(225, 95, 79);
+}
+article.event .icon-mt-google {
+    background-color: rgb(221, 75, 57);
+}
+
+article.event .icon-mt-twitter:hover {
+    background-color: rgb(8, 187, 255);
+}
+
+article.event .icon-mt-twitter {
+    background-color: rgb(0, 172, 238);
+}
+
+article.event .icon-mt-facebook:hover {
+    background-color: rgb(66, 100, 170);
+}
+
+article.event .icon-mt-facebook {
+    background-color: rgb(59, 89, 152);
+}
+
+article.event .number-participants span{
+    border-radius:50%;
+    border:1px solid black;
+    padding:4px;
+}
+
+article.event #location-map{
+    width:100%;
+    height:250px;
+    border:0;
 }
 
 .profile{
@@ -267,8 +318,6 @@ article.event .icons-and-tags .tag-box a {
 .buttons-form{
     padding-top: 50px;
 }
-
-
 /*************************
     -- INDEX NEWS --
 *************************/
@@ -309,4 +358,20 @@ article.event .icons-and-tags .tag-box a {
 .index-map {
     width: 100%;
     height: 200px;
+}
+
+/************************
+  -- ALIGNEMENT-TEXT --
+************************/
+
+.text-center{
+    text-align: center;
+}
+
+.text-justify{
+    text-align: justify;
+}
+
+.text-right{
+    text-align: right;
 }
