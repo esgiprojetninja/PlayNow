@@ -21,6 +21,9 @@
                 <p>
                     Avec <span class="strong">Play Now</span> vous pouvez organiser un match sur un coup de tête. Faites savoir où et quand vous voulez jouer aux joueurs autour de vous ! <span class="strong">Validez</span> et c'est parti !
                 </p>
+                <button type="button" class="btn btn-dark-blue">
+                    Call to action
+                </button>
             </div>
         </div>
         <div id="slide2" class="landing-slide">
@@ -31,6 +34,9 @@
                 <p>
                     <span class="strong">Play Now</span> vous permet de rechercher et trouver des parties de sport autour de vous. Plus besoin de s'y prendre des semaines à l'avance ! Connectez vous, et <span class="strong">bougez</span> !
                 </p>
+                <button type="button" class="btn btn-dark-blue">
+                    Call to action
+                </button>
             </div>
         </div>
         <div id="slide3" class="landing-slide">
@@ -41,6 +47,9 @@
                 <p>
                     <span class="strong">Play Now</span> connecte les sportifs autour de vous. Rencontrez-les autour de votre passion commune et dépassez vous <span class="strong">ensemble</span> ! Vous ne manquerez plus jamais de <span class="strong">partenaires</span> !
                 </p>
+                <button type="button" class="btn btn-dark-blue">
+                    Call to action
+                </button>
             </div>
         </div>
         <div id="device-container">

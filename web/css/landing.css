@@ -21,6 +21,13 @@
     text-shadow: 2px 2px 2px #1A1C40;
 }
 
+@media screen and (max-width: 768px) {
+    .landing-slide .landing-text {
+        width: 100%;
+        padding: 0;
+    }
+}
+
 .landing-slide .landing-text h3 {
     margin-top: 20%;
     font-size: 40px;
@@ -29,6 +36,10 @@
 
 .landing-slide .landing-text .strong {
     font-size: 1.5em;
+}
+
+.landing-slide .landing-text button {
+    margin-top: 30px;
 }
 
 #slide1 {
@@ -54,12 +65,18 @@
 
 #fixed-container #device-container {
     height: 50%;
-    width: 100%;
+    width: 50%;
     position: fixed;
     top: 20%;
     margin-left: 4%;
     display: flex;
     align-items: flex-end;
+}
+
+@media screen and (max-width: 768px) {
+    #fixed-container #device-container {
+        display: none;
+    }
 }
 
 #fixed-container #device-container .device {
