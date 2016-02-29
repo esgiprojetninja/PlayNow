@@ -13,21 +13,26 @@
 </head>
 <body>
     <div id="fixed-container">
-        <div id="tab" class="device-container">
-            <img src="./img/ipad_mockup.png">
+        <div id="slide1" class="landing-slide">
         </div>
-        <div id="phone" class="device-container">
-            <img src="./img/iphone_mockup.png">
+        <div id="slide2" class="landing-slide">
         </div>
-    </div>
-    <div id="slide1" class="landing-slide">
-        <div class="inside">
-            <h1>TOTO</h1>
-        </div>
-    </div>
-    <div id="slide2" class="landing-slide">
-        <div class="inside">
-            <h1>TATA</h1>
+        <div id="device-container">
+            <div id="tab" class="device">
+                <div class="screen">
+                    <img src="../img/mobile_layout.jpg" alt="Mobile Layout">
+                </div>
+            </div>
+            <div id="phone" class="device">
+                <div class="screen">
+                    <img src="../img/mobile_layout.jpg" alt="Mobile Layout">
+                </div>
+            </div>
+            <div id="text" class="device">
+                <div class="screen">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </div>
+            </div>
         </div>
     </div>
 </body>

@@ -21,40 +21,75 @@
     background-size: cover;
 }
 
-.landing-slide .inside {
-    margin: 0 0 0 6%;
-    width: 28%;
-    height: 53%;
-    position: relative;
-    top: 21%;
-    background: #FFFFFF;
-}
-
 #fixed-container {
-    position: fixed;
-    height: 100vh;
     width: 100%;
     display: flex;
-    margin: 0 5%;
+    flex-direction: column;
+}
+
+#fixed-container #device-container {
+    height: 50%;
+    width: 100%;
+    position: fixed;
+    top: 20%;
+    margin-left: 4%;
     display: flex;
     align-items: baseline;
 }
 
-#fixed-container .device-container {
-    height: 50%;
-    width: 30%;
+#fixed-container #device-container .device {
+    overflow: hidden;
+}
+
+
+#fixed-container #device-container #phone {
+    width: 143px;
+    min-width: 143px;
+    height: 292px;
+    min-height: 292px;
+    background: url(../img/iphone_mockup.png) no-repeat top;
+    background-size: contain;
+}
+
+#fixed-container #device-container #tab {
+    height: 368px;
+    min-height: 368px;
+    width: 264px;
+    min-width: 264px;
+    overflow: hidden;
+    background: url(../img/ipad_mockup.png) no-repeat top;
+    background-size: contain;
+}
+
+#fixed-container #device-container #text {
+    height: 100%;
+    width: calc(100% - 500px);
+}
+
+#fixed-container #device-container .device .screen {
+    width: 100%;
+    height: 100%;
     position: relative;
-    top: 20%;
-    margin-right: 15px;
+    overflow: hidden;
 }
 
-#fixed-container #phone {
-    width: 10%;
-    height: 27%;
+#fixed-container #device-container #tab .screen {
+    top: 24px;
+    height: 318px;
+    width: 239px;
+    margin-left: 13px;
 }
 
-#fixed-container #tab {
-    height: 55%;
+#fixed-container #device-container #phone .screen {
+    top: 36px;
+    height: 318px;
+    width: 125px;
+    margin-left: 9px;
+}
+
+#fixed-container #device-container .device .screen img {
+    position: absolute;
+    width: 100%;
 }
 
 #fixed-container .device-container img {
