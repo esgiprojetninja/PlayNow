@@ -1,6 +1,6 @@
     <html>
     <head>
-        <title>Play Now | Get wet motherfucker !</title>
+        <title>Play Now !</title>
         <meta charset="UTF-8">
         <link rel="stylesheet" type="text/css" href="./css/grid.css">
         <link rel="stylesheet" type="text/css" href="./css/global.css">
