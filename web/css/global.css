@@ -275,6 +275,52 @@ article.event #location-map{
     height:250px;
     border:0;
 }
+
+.profile{
+    background-color: #ffffff;
+    border: 1px solid #bfbfbf;
+    box-shadow: 2px 2px 2px #bfbfbf;
+    color: #13191c;
+    margin-bottom: 20px;
+    margin-left: 15px;
+    padding: 15px;
+}
+
+.notation{
+    color : #6683d9;
+    padding-left: 5px;
+}
+
+.profil-list li{
+    list-style-type: none;
+    padding-left: 15px;
+}
+
+.profil-list ul{
+    margin: 0;
+    padding: 0;
+    padding-bottom: 5px;
+}
+
+.list-selection li{
+    display: inline-block;
+    list-style-type: none;
+    padding-left: 15px;
+}
+
+.list-selection ul{
+    margin: 0;
+    margin-top: 10px;
+    padding: 0;
+    padding-bottom: 5px;
+}
+
+.buttons-form{
+    padding-top: 50px;
+}
+
+
+>>>>>>> master
 /*************************
     -- INDEX NEWS --
 *************************/
