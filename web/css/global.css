@@ -375,3 +375,57 @@ article.event #location-map{
 .text-right{
     text-align: right;
 }
+
+/************************
+  -- INSCRIPTION --
+************************/
+
+.inscription {
+    text-align: center;
+}
+
+.inscription h1 {
+    font-size: 30px;
+    color: #8E8D8F;
+}
+
+.inscription h2 {
+    color: #2A2A2A;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.inscription label {
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.inscription input[type="text"], .inscription input[type="password"] {
+    margin-bottom: 20px;
+    width: 200px;
+    padding-left: 30px;
+    height: 30px;
+    line-height: 30px;
+    outline: none;
+    border-radius: 3px;
+    border: 1px solid #8E8D8F;
+}
+
+.inscription input[type="submit"] {
+    text-transform: uppercase;
+    width: 200px;
+    cursor: pointer;
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid #62c462;
+    background: #62c462;
+    color: #fff;
+    transition: .3s;
+}
+
+.inscription input[type="submit"]:hover {
+    border: 1px solid #62c462;
+    background: transparent;
+    color: #62c462;
+    transition: .3s;
+}
