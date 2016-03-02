@@ -191,7 +191,7 @@
                                             <h2>Participants</h2>
                                             <div class="row">
                                                 <div class="col-xs-2 text-center">
-                                                    <p>0 participants</p>
+                                                    <p>0 participant</p>
                                                 </div>
                                                 <div class="text-right btn-box" >
                                                     <button type="button" class="btn btn-primary">
@@ -231,6 +231,38 @@
                         </aside>
                     </div> <!-- END GRID CONTAINER -->
                 </div>
+                <footer>
+                    <div class="grid-container">
+                        <div class="row">
+                            <div class="col-xs-5 footer-left">
+                                 <a href="#" class="icon">
+                                    <span class="text">© 2016 Play Now</span>
+                                </a>
+                                <a href="#" class="icon">
+                                    <span class="icon-facebook2"></span>
+                                </a>
+                                <a href="#" class="icon">
+                                    <span class="icon-twitter"></span>
+                                </a>
+                            </div>
+                            <div class="col-xs-7 footer-right text-right">
+                                <a href="#" class="icon">
+                                    <span class="text">Imprit</span>
+                                </a>
+                                <a class="icon" href="#">
+                                    <span class="text">Terms</span>
+                                </a>
+                                <a class="icon" href="#">
+                                    <span class="text">Staff</span>
+                                </a>
+                                <a class="icon" href="#">
+                                    <span class="text">Contact</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+
             </body>
 
             <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
